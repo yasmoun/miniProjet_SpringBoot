@@ -1,0 +1,132 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+
+.main-container {
+  position: relative;
+  width: 1477px;
+  height: 768px;
+  background: #f1d9f0;
+  overflow: hidden;
+}
+.flex-row-d {
+  position: relative;
+  width: 1331px;
+  height: 66px;
+ 
+  z-index: 5;
+}
+
+
+.qui-sommes-nous-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 484px;
+  height: 82px;
+  margin: 200px 0 0 441px;
+  color: #5d3434;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48.409px;
+  text-align: center;
+  z-index: 8;
+}
+.a-propos-de-nous {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 378px;
+  height: 46px;
+  margin: 90px 0 0 491px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36.307px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 9;
+}
+.creche-securisee-pour-animaux {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 1238px;
+  height: 36px;
+  margin: 15px 0 0 76px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.flex-row-ee {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1291px;
+  height: 271px;
+  margin: 32px 0 0 48px;
+  z-index: 11;
+}
+.avec-notre-equipe-devouee {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 942px;
+  height: 144px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 36.307px;
+  text-align: justified;
+  z-index: 11;
+}
+.imageP {
+  flex-shrink: 0;
+  position: relative;
+  width: 320px;
+  height: 271px;
+  background: url(./assets/client_side/images1/c2bbfbdeba3850793253680148a5bf4e467a6cba.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.widescreen-cute-bunny {
+  position: absolute;
+  width: 1477px;
+  height: 213px;
+  top: 102px;
+  left: 0;
+  background: url(./assets/client_side/images1/eef52a2b520cf017bef15c6704eea0ce397eddc9.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(2px);
+  z-index: 7;
+}
+.line {
+  position: absolute;
+  width: 1364.082px;
+  height: 2px;
+  top: 110px;
+  left: 0;
+  background: url(./assets/client_side/images1/421c7e60-f892-4b56-82da-56d4a47a83d5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}

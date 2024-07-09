@@ -1,0 +1,82 @@
+
+.main-containeryy {
+  position: relative;
+  width: 1477px;
+  height: 80px;
+margin-left: -100px;
+  background: #f1d9f0;
+  overflow: hidden;
+}
+
+.frameyy {
+  position: relative;
+  width: 1477px;
+  height: 77px;
+  margin: 0 0 0 0;
+  background: #f5efef;
+  z-index: 4;
+  overflow: hidden;
+}
+.rectangle-2yy {
+  position: absolute;
+  width: 162px;
+  height: 55px;
+  top: 12px;
+  left: 650px;
+  cursor: pointer;
+  background: #c4a0a0;
+  border: none;
+  z-index: 5;
+  border-radius: 20px;
+}
+.accueil-3yy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 24px;
+  left: 683px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.adoptionyy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 24px;
+  left: 847px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.passer-une-reservationyy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 24px;
+  left: 1011px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
